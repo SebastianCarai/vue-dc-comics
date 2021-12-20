@@ -8,6 +8,7 @@
     </main>
     <Prefooter />
     <Footer />
+    <References />
     
   </div>
 </template>
@@ -16,13 +17,15 @@
 import Header from "./components/Header.vue";
 import Prefooter from "./components/Prefooter.vue";
 import Footer from "./components/Footer.vue";
+import References from "./components/References.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     Prefooter,
-    Footer
+    Footer,
+    References
   },
 };
 </script>
