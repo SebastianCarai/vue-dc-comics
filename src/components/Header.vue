@@ -93,14 +93,22 @@ header{
         padding: 0 15px;
         font-size: 14px;
         font-weight: 700;
+        a{
+            display: inline-block;
+            line-height: 100px;
+        }
         &:hover{
-            border-bottom: 3px solid $main_color;
-            color: $main_color;
+            a{
+                border-bottom: 6px solid $main_color;
+                color: $main_color;   
+            }
         }
     }
     .header_li.active{
-            border-bottom: 3px solid $main_color;
+        a{
+            border-bottom: 6px solid $main_color;
             color: $main_color;
+        }
     }
 }
 </style>

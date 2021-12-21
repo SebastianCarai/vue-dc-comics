@@ -183,6 +183,9 @@ section{
                 color: gray;
                 font-size: 13px;
             }
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
     .footer_right_col{

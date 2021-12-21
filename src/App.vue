@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <Header />
+    <Banner />
     <main>
         <div class="container_70">
-          --> Content Goes Here -->
+          <Comics />
         </div>
     </main>
     <Prefooter />
@@ -18,6 +19,8 @@ import Header from "./components/Header.vue";
 import Prefooter from "./components/Prefooter.vue";
 import Footer from "./components/Footer.vue";
 import References from "./components/References.vue";
+import Banner from "./components/Banner.vue";
+import Comics from "./components/Comics.vue";
 
 export default {
   name: "App",
@@ -25,7 +28,9 @@ export default {
     Header,
     Prefooter,
     Footer,
-    References
+    References,
+    Banner,
+    Comics
   },
 };
 </script>
@@ -38,6 +43,7 @@ export default {
 main{
   color: $secondary_color;
   background-color: #1c1c1c;
-  padding: 70px 0;
+  padding: 40px 0 20px;
+  position: relative;
 }
 </style>
